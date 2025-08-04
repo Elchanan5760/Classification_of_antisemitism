@@ -6,7 +6,7 @@ class ExploreData:
         self.category_0 = self.df[self.df['Biased']==0]
         self.category_1 = self.df[self.df['Biased']==1]
 
-    def count_category(self):#Counts how many rows each category.
+    def count_categories(self):#Counts how many rows each category.
         my_dict = {}
         my_dict['antisemitic'] = len(self.category_1)
         my_dict['non antisemitic'] = len(self.category_0)
@@ -45,3 +45,4 @@ class ExploreData:
         my_dict['antisemitic'] = int(pd.Series(' '.join(self.category_1.Text).split()).apply(lambda w: w.isupper()).value_counts()[True])
         my_dict['non antisemitic'] = int(pd.Series(' '.join(self.category_0.Text).split()).apply(lambda w: w.isupper()).value_counts()[True])
         print(my_dict)
+        return my_dict

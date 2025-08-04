@@ -1,0 +1,68 @@
+{
+    "total_tweets": {
+        "antisemitic": 1250,
+        "non antisemitic": 5691,
+        "total": 6941,
+        "unspecified": 0
+    },
+    "average_length": {
+        "total": 28.304422993804927,
+        "antisemitic": 23.6072,
+        "non antisemitic": 29.33614479001933
+    },
+    "common_words": {
+        "total": [
+            "the",
+            "to",
+            "of",
+            "jews",
+            "and",
+            "in",
+            "a",
+            "is",
+            "for",
+            "are"
+        ],
+        "antisemitic": [
+            "the",
+            "of",
+            "to",
+            "and",
+            "is",
+            "in",
+            "jews",
+            "a",
+            "??",
+            "are"
+        ],
+        "non antisemitic": [
+            "the",
+            "to",
+            "of",
+            "jews",
+            "and",
+            "in",
+            "a",
+            "is",
+            "for",
+            "that"
+        ]
+    },
+    "longest_3_tweets": {
+        "antisemitic": [
+            "\"... there is much in the fact of Bolshevism itself. In the fact that so many Jews are Bolsheviks. In the fact that the ideals of Bolshevism are consonant with the finest ideals of Judaism.\"\n\n(The London Jewish Chronicle, April 4, 1919)",
+            "\"Don't take the Jews and the Christians for friends; they are friends of each other.\"\n\n -Al Qur'aan 5:51.",
+            "\"Free speech\" is when Jews say they will replace you.\n\n\"Hate speech\" is when you say they won't. https://t.co/LaEZwYpKzY"
+        ],
+        "non antisemitic": [
+            "\" a voice for American Jews in the GOP\".",
+            "\"...it is fundamentally unethical [for @IfNotNowOrg] to hold Jews in America accountable for a foreign government\ufffds security considerations.\"\nhttps://t.co/ZYQjdWjbMc",
+            "\"A nativity scene without Jews, Arabs, Africans or refugees.\" https://t.co/a8ilbFME9u"
+        ]
+    },
+    "uppercase_words": {
+        "total": 7085,
+        "antisemitic": 1153,
+        "non antisemitic": 5932
+    }
+}
